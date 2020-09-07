@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.target=Player
+comment0.text=\n\ Write\ a\ description\ of\ class\ Player\ here.\n\ \n\ @author\ (your\ name)\ \n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment1.params=up\ down
+comment1.target=Player(java.lang.String,\ java.lang.String)
+comment2.params=
+comment2.target=int\ getScore()
+comment3.params=
+comment3.target=void\ incrementScore()
+comment4.params=
+comment4.target=void\ act()
+comment5.params=direction
+comment5.target=void\ move(java.lang.String)
+numComments=6
