@@ -10,7 +10,7 @@ public class Player extends Actor
 {
     private String up = "";
     private String down = "";
-    private int speed = 2;
+    private int speed = 6;
     private int score = 0;
     
     public Player(String up, String down) {
@@ -33,6 +33,8 @@ public class Player extends Actor
             move("down");
         }
     }
+    
+    public int getYCoord() {return getY();}
     
     private void move(String direction) {
         setLocation(getX(), ((direction.equals("up")) ? getY()-this.speed : getY()+this.speed));

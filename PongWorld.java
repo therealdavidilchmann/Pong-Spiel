@@ -12,7 +12,7 @@ import java.util.Map;
 public class PongWorld extends World
 {
 
-    private int screenHeight = 400;
+    private int screenHeight = 600;
     private int screenWidth = 600;
     /**
      * Constructor for objects of class PongWorld.
@@ -21,7 +21,7 @@ public class PongWorld extends World
     public PongWorld()
     {    
         // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
-        super(600, 400, 1); 
+        super(600, 600, 1); 
         populate();
     }
     
