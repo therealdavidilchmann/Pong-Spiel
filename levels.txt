@@ -1,0 +1,5 @@
+ball=1
+
+ball=4
+hindernis=10
+
